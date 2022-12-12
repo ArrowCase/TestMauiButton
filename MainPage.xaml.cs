@@ -9,14 +9,24 @@ namespace TestMauiButton
             InitializeComponent();
         }
 
-        private void CounterBtn_Pressed(object sender, EventArgs e)
+        private void ImageBtn_Pressed(object sender, EventArgs e)
         {
-            Debug.WriteLine("pressed");
+            Debug.WriteLine("ImageButton pressed");
         }
 
-        private void CounterBtn_Released(object sender, EventArgs e)
+        private void ImageBtn_Released(object sender, EventArgs e)
         {
-            Debug.WriteLine("released");
+            Debug.WriteLine("ImageButton released");
+        }
+
+        private void Btn_Pressed(object sender, EventArgs e)
+        {
+            Debug.WriteLine("Button pressed");
+        }
+
+        private void Btn_Released(object sender, EventArgs e)
+        {
+            Debug.WriteLine("Button released");
         }
     }
 }
